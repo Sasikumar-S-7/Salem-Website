@@ -1,0 +1,899 @@
+body
+{
+	margin: 0;
+}
+.header-container
+{
+	
+	width:100%;
+	height:202px;
+	border: 1px solid  ;
+	margin:auto;
+}
+
+.header-container-head1
+{
+	width:100%;
+	height:33px;
+	border-bottom: 1px solid #828281;
+	border-top: 1px solid #828281;
+}
+.header-container-head2
+{
+	width:100%;
+	height:121px;
+	border-bottom: 1px solid #828281;
+	border-top: 1px solid #828281;
+	position: relative;
+
+	
+}
+.header-container-head3
+{
+	width: 100%;
+	display:none;
+	height: 42px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li
+{
+	float: left;
+/*border-left: 1px solid black;*/
+height: 25px;
+/*color: white;*/
+}
+  li a
+{
+	display: block;
+/*	border-left: 1px solid black;*/
+	height:33px;
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+/*	border: 1px solid black;*/
+}
+.right-side-menu
+{
+	float: right;
+	width: 30%;
+	margin-right: 20px;
+} 
+ .alpha-menu-tamil
+{
+	padding-top:5px;
+	padding-left:6px ;
+	padding-right:6px ;
+	border-left: 1px solid black;
+	 height:30px;
+	 width:auto;
+}
+.alpha-menu
+{
+    padding-top: 9px;
+    padding-left:6px ;
+	padding-right:6px ;
+	border-left:1px solid black ;
+    height: 25px;
+    width: ;
+}
+.English
+{
+	text-decoration: underline;
+	border-right: 1px solid;
+}
+.image-menu
+{
+	padding-top: 3px;
+	height: 30px;
+	border-left: 1px solid black;
+	padding-left:6px ;
+	padding-right:6px ;
+}
+.left-side-menu
+{
+	margin-left: 20px;
+	width:;
+}
+
+li:hover
+{
+	background-color:black;
+	color: white;
+	
+}
+a:hover
+{
+	color: white;
+	background-color: black;
+}
+/*/////********?????////// head1*/
+.tamilnadu-logo-container
+{
+	width: 400px;
+	height: 110px;
+/*	border: 1px solid;*/
+	margin-top: 4px;
+	margin-left:20px;
+}
+.tamilnadu-logo
+{
+	margin-left: 10px;
+	width: 23%;
+	padding-top: 5px;
+}
+.salem-maavattam-tamil
+{
+	width: 277px;
+	height:100px;
+/*	border: 1px solid;*/
+	float: right;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+   
+    line-height: 18px;
+}
+ 
+.digital-india-container
+{
+	width: 200px;
+	height: 100px;
+/*	border: 1px solid;*/
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	
+}
+ .main-menu-ul
+{
+	margin-left: 34px;
+}
+
+.main-menu-li
+{
+	float: left;
+    /*border-left: 1px solid black;*/
+    height: 35px;   
+}
+.sub-menu-a-douple-line-li
+{
+	height: 45px;
+}
+.main-menu-a
+{
+	display: block;
+/*	border-left: 1px solid black;*/
+    background: white;
+    padding-top: 12px;
+    padding-left:18px ;
+    padding-right:18px;
+	height:30px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight:bold ;
+/*	border: 1px solid black;*/
+}
+.main-menu-a-image
+{
+	background:#9e6b22 ;
+	padding-top:8px;
+	height: 34px;
+	padding-left: 5px;
+	padding-right: 0px;
+}
+.main-menu-li-right-side
+{
+/*	margin-right: 30px;*/
+}
+span
+{
+	float: right;
+	margin-right: 33px;
+}
+.drop
+{
+	position: relative;
+}
+
+.drop-down-about-district
+{
+	position: absolute;
+	display: none;
+	background-color: pink;
+/*	display: block;*/
+	width: 265px;
+	height:auto;
+
+	border: 1px solid white;
+}
+.main-menu-ul a:hover
+{
+	background-color:#9e6b22;
+}
+.main-menu-a-image
+{
+	background-color: white;
+}
+.drop:hover .drop-down-about-district
+{
+	display:block;
+	background-color: #9e6b22;
+	z-index: 1;
+}
+.sub-menu-li
+{
+	display: block;
+	width: 264px;
+	height:auto;
+
+}
+.sub-menu-a
+{
+	display: block;
+/*	border-left: 1px solid black;*/
+    background:#f2b45c;
+    padding-top: 14px;
+    padding-left:20px ;
+    padding-bottom:2px;
+
+	height:27px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight:bold ;
+
+/*	border: 1px solid black;*/
+}
+.sub-menu-a-douple-line-li
+{
+	display: block;
+/*	border-left: 1px solid black;*/
+    background: #f2b45c;
+    padding-top: 8px;
+    padding-left:20px ;
+    padding-bottom:6px;
+
+	height:31px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight:bold ;
+/*	border: 1px solid black;*/
+}
+
+.sub-sub-menu-drop
+{
+	position: relative;
+}
+.drop-down-about-district-sub-sub-menu
+{
+	position: absolute;
+	top: 0px;
+	left: 265px;
+	background-color: pink;
+	display:none;
+/*	width: 265px;*/
+	height:auto;
+
+	border: 1px solid white;
+}
+.sub-sub-menu-li
+{
+	display: block;
+	width: 200px;
+	height:auto;
+}
+.sub-sub-menu-a
+{
+	display: block;
+/*	border-left: 1px solid black;*/
+    background: #f2b45c;
+    padding-top: 14px;
+    padding-left:20px ;
+    padding-bottom:2px;
+
+	height:27px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight:bold ;
+/*	border: 1px solid black;*/
+}
+.sub-sub-menu-drop:hover .drop-down-about-district-sub-sub-menu
+{
+	display: block;
+}
+.revenue-administration-drop
+{
+	position: relative;
+}
+.drop-down-about-revenue-administaration
+{
+	position:absolute;
+	top:0px;
+	left: 200px;
+	display: block;
+	background-color: pink;
+	display:none;
+/*	width: 265px;*/
+	height:auto;
+	border: 1px solid white;
+}
+.revenue-administration-drop:hover .drop-down-about-revenue-administaration
+{
+	display: block;
+}
+.sub-sub-sub-menu-li
+ {
+	display: block;
+	width: 200px;
+	height:auto;
+}
+.sub-sub-sub-menu-a
+{
+	display: block;
+/*	border-left: 1px solid black;*/
+    background: #f2b45c;
+    padding-top: 14px;
+    padding-left:20px ;
+    padding-bottom:2px;
+
+	height:27px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight:bold ;
+/*	border: 1px solid black;*/
+}
+/*header-complete*/
+.image-container-mettur-dam
+{
+	width: 100%;
+	background-image:url("file:///C:/Users/SASIKUMAR/OneDrive/Desktop/Salem%20website/Salem%20District,%20Government%20of%20Tamil%20Nadu%20_%20An%20Official%20Web%20Site%20of%20Salem%20District%20Administration%20_%20India_files/2018012412.jpg") ;
+	height: 370px;
+	background-repeat: no-repeat;
+	border: 1px solid;
+}
+.mettur-dam
+{
+	margin-top:320px;
+	width: 100%;
+	height: 50px;
+	background-color:#9e6b22;
+	text-align: center;
+	font-size: 20px;
+	opacity: 0.8;
+}
+.mettur-dam p
+{
+	font-size: 20px;
+	padding-top: 10px;
+	color: white;
+	font-family: Tahoma, sans-serif;
+
+}
+.marquee-container
+{
+	width: 90%;
+	height: 45px;
+/*	border: 1px solid ;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+.marquee-p
+{
+	font-size:;
+	font-family: Tahoma, sans-serif;
+	font-weight: bold;
+	color:black;
+}
+.center-div
+{
+	width: 100%;
+	height: 417px;
+/*	border: 1px solid;*/
+	background-color:#e5e5e5 ;
+}
+.center-div-1
+{
+	width:37% ;
+	margin: 37px 15px 10px 40px;
+    background-color: #ffffff;
+	height:340px ;
+/*	border: 1px solid;*/
+	float: left;
+}
+.center-div-2
+{
+	width:37% ;
+	margin:37px 15px 0px 18px;
+    background-color: #ffffff;
+	height:350px ;
+/*	border: 1px solid;*/
+	float: left;
+	position: relative;
+
+}
+.center-div-3
+{
+	width: 13%;
+	margin: 37px 5px 10px 20px;
+	background-color: #ffffff;
+	height: 210px;
+/*	border: 1px solid;*/
+	float: left;
+}
+.about-district
+{
+   padding:20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   text-indent:20px ;
+   line-height:1.5em ;
+   text-align: justify;
+}
+.read-more
+{
+	text-decoration: none;
+	background-color:white;
+}
+.center-div-menus
+{
+	font-size: 12px;
+	padding-top: px;
+	padding-left:px;
+}
+li.center-div-menus-li-first
+{
+    background-color: white;
+    color:#9e6b22;
+    padding-top: 15px;
+    width: 100px;
+	font-size: 15px;
+    padding-left:15px ;
+}
+
+li.center-div-menus-li-second
+{
+    background-color:#e5e5e5;
+    color: black;
+    padding-top: 15px;
+    width: 130px;
+    font-weight: bold;
+    padding-left: 20px;
+    height: 30px;
+}
+li.center-div-menus-li-second:hover
+{
+	background-color:yellow ;
+	color: black;
+}
+li.center-div-menus-li-third:hover
+{
+	background-color:yellow ;
+	color: black;
+}
+li.center-div-menus-li-third
+{
+    background-color:#e5e5e5;
+    color: black;
+    padding-top: 15px;
+    width: 204px;
+    font-weight: bold;
+    padding-left:15px ;
+    height: 30px;
+}
+ul.center-div-ul
+{
+	list-style: square;
+	color: darkred;
+	margin-left: 20px;
+
+
+	padding-left: 30px;
+
+}
+li.center-div-li
+{
+	color: black !important;
+	height: 45px;
+	margin-top: 5px;
+	padding-top:px;
+	background-color: white !important;
+}
+.view-more
+{   
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	width:70px;
+	font-size: 14px;
+	background-color:#9e6b22 ;
+	padding-top: 7px;
+	padding-left: 7px;
+	height: 25px;
+	border:1px solid;
+	border-radius:2px ;
+}
+.view-more a
+{
+	color: white;
+	text-decoration: none;
+}
+.view-more:hover
+{
+	background-color: red;
+	color: white;
+}
+.view-more a:hover
+{
+	background-color:red ;
+	color: white;
+}
+.Collector-image
+{
+	width:80%;
+	display:;
+	padding-top: 8px;
+	padding-left: 17px;
+
+}
+.profile-button
+{
+	background-color:#e5e5e5;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	border-radius:3px ;
+	margin-left:35px;
+	margin-bottom:15px;
+}
+/*District-container*/
+.district-container
+{
+	width: 100%;
+	height: 560px;
+/*	border: 1px solid;*/
+}
+.district-container-column
+{
+	width: 30%;
+	height: 525px;
+/*	border: 1px solid;*/
+	float: left;
+	margin: 10px;
+	margin-top: 20px;
+	background-color: #f1f1f1;
+}
+.district-container-column h2
+{
+	font-size:2.0rem;
+	padding-left: 20px;
+	padding-top: 0px;
+}
+.one
+{
+	margin-left: 45px;
+}
+.admin-units-container
+{
+	width: 90%;
+	height: 95px;
+/*	border: 1px solid;*/
+	margin-left: 19px;
+	margin-top: 8px;
+}
+.icon-large-container
+{
+	width:90px ;
+	height: 90px;
+/*	border: 1px solid;*/
+	margin-left: 5px;
+	margin-top: 2px;
+	float: left;
+}
+.icon-text-container
+{
+	width: 230px;
+	height: 90px;
+/*	border: 1px solid;*/
+	margin-left: 5px;
+	margin-top: 2px;
+	float: left;
+
+}
+.icon-text-container p
+{
+	color: #067dbb;
+
+	font-size:13px;
+    font-family: "Lucida Console", Courier, monospace;
+	line-height:1;
+}
+.icon-text-container h1
+{
+	color: #067dbb;
+	margin-top: 0px;
+	 font-family: "Lucida Console", Courier, monospace;
+}
+.number2 h1
+{
+	color:#d04a0d ;
+}
+.number2 p
+{
+	color:#d04a0d ;
+}
+.number3 h1
+{
+	color:#06880e ;
+}
+.number3 p
+{
+	color:#06880e ;
+}
+
+.number4 h1
+{
+	color:#cc4647 ;
+}
+.number4 p
+{
+	color:#cc4647 ;
+}
+.general h4, .general p
+{
+	line-height: 0.5;
+	padding-left:20px ;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+.general
+{
+	margin-top: 20px;
+}
+.image-icon
+{
+	width: 12%;
+	float: left;
+}
+.image-p
+{
+	line-height:0.1;
+	padding-bottom: 10px;
+	float: left;
+}
+.map-container
+{
+	width: 100%;
+	height: 385px;
+/*	border: 1px solid;*/
+}
+.map-container-columns
+{
+	width: 24.8%;
+	height: 382px;
+	float: left;
+/*	border: 1px solid;*/
+}
+.map-div
+{
+	width: 95%;
+	height: 377px;
+	margin-left: 10px;
+/*	border: 1px solid;*/
+
+}
+iframe
+{
+	width: 100%;
+	height: 375px;
+}
+.before-image
+{
+	display: flex;
+	margin-left: 15px;
+}
+.three
+{
+	position: relative;
+}
+.more
+{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	width:70px;
+	font-size: 14px;
+	background-color:#9e6b22 ;
+	padding-top: 7px;
+	padding-left: 7px;
+	height: 25px;
+	border:1px solid;
+	border-radius:2px ;
+}
+.more a
+{
+	color: white;
+	text-decoration: none;
+}
+.more:hover
+{
+	background-color: red;
+	color: white;
+}
+.more a:hover
+{
+	background-color:red ;
+	color: white;
+}
+.image-icon-map
+{
+	width: 15%;
+}
+.map-container-columns h1
+{
+	padding-left: 20px;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.black-container
+{
+	width: 100%;
+	height: 631px;
+	background-color: #100e32;
+}
+.black-container-column
+{
+	width: 48%;
+	margin-left: 20px;
+	height: 630px;
+/*	border: 1px solid white;*/
+	float: left;
+}
+.gallery-image-container
+{
+	width: 90%;
+	margin-top: 50px;
+	height: 250px;
+	margin-left: 20px;
+	background-color: white;
+/*	border: 1px solid white;*/
+}
+.gallery-image-container iframe
+{
+	width:;
+	height: 240px;
+}
+.black-container-column-column
+{
+	width: 49%;
+	position: relative;
+	height: 630px;
+/*	border: 1px solid white;*/
+	float: left;
+
+}
+
+.black-container-column-column ul
+{
+	list-style: circle;
+	color: white;
+	margin-left: 20px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.black-container-column-column h1
+{
+	color: white;
+	font-family: sans-serif;
+}
+.black-container-column-column li
+{
+	height: 45px;
+}
+.columns2
+{
+	margin-top: 55px;
+}
+.black-container-column-column li:hover
+{  
+   background-color:  #100e32;
+}
+.last-image-container
+{
+	width: 100%;
+	margin-left: 20px;
+	height: 100px;
+	background-color: white;
+}
+.last-image-container img
+{
+	width: 10%;
+}
+.links
+{
+	width: 100%;
+	height: 50px;
+	background-color: #111111;
+}
+.contact-container{
+	width: 100%;
+	height: 130px;
+	margin-top: -16px;
+	background-color: #0c0c0c;
+}
+.contact-image-container
+{
+	width: 100%;
+	height: 70px;
+	border-top:1px solid white;
+	background-color: #0c0c0c;
+	text-align: center;
+}
+.links ul
+{
+	list-style: none;
+	margin-left:450px;
+	padding: 0px;
+	}
+.links li
+{
+	display: flex;
+	color: white;
+	padding: 12px;
+	
+}
+.links li a
+{
+	text-decoration:none;
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+
+}
+.contact-container p
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif , monospace;
+	line-height:0.7 ;
+}
+.contact-container a
+{
+	color: skyblue;
+}
+/*.contact-images
+{
+	width: 50%;
+	height: 69px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}*/
+.contact-images img 
+{
+	border: 1px solid white;
+	width: 10%;
+
+}
